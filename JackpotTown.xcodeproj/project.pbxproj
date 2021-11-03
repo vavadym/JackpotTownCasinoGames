@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75137FDD9E8BE5F83A86483F /* libPods-JackpotTown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E0D44CD1C0752B12F1E1D6 /* libPods-JackpotTown.a */; };
+		058E94C1F3376B5E0A4F001C /* libPods-JackpotTown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 752E1A463379F3382422990E /* libPods-JackpotTown.a */; };
 		7E1BD8D827218221008BAFA0 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BD8D727218221008BAFA0 /* FortuneViewController.swift */; };
 		7E1BD8DA2721D52B008BAFA0 /* FortunePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BD8D92721D52B008BAFA0 /* FortunePopUpViewController.swift */; };
 		7E44818426DEC92600134F93 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E44818326DEC92600134F93 /* StoreKit.framework */; };
@@ -41,8 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49E0D44CD1C0752B12F1E1D6 /* libPods-JackpotTown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JackpotTown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		673472F8BF96CC3EBD410A82 /* Pods-JackpotTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.release.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.release.xcconfig"; sourceTree = "<group>"; };
+		22129B290672C711DFFD94FC /* Pods-JackpotTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.release.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.release.xcconfig"; sourceTree = "<group>"; };
+		52E34EDC6B612BADF4CD814E /* Pods-JackpotTown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.debug.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.debug.xcconfig"; sourceTree = "<group>"; };
+		752E1A463379F3382422990E /* libPods-JackpotTown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JackpotTown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1BD8D727218221008BAFA0 /* FortuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
 		7E1BD8D92721D52B008BAFA0 /* FortunePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunePopUpViewController.swift; sourceTree = "<group>"; };
 		7E44818326DEC92600134F93 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -76,7 +77,6 @@
 		7EA0347126CE789B00665056 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		7EA095DB26CFE1380053B791 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		7EB5559327319042001EAF50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		EDB388F806B1E63F28222737 /* Pods-JackpotTown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.debug.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E44818426DEC92600134F93 /* StoreKit.framework in Frameworks */,
-				75137FDD9E8BE5F83A86483F /* libPods-JackpotTown.a in Frameworks */,
+				058E94C1F3376B5E0A4F001C /* libPods-JackpotTown.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				7E44818326DEC92600134F93 /* StoreKit.framework */,
-				49E0D44CD1C0752B12F1E1D6 /* libPods-JackpotTown.a */,
+				752E1A463379F3382422990E /* libPods-JackpotTown.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,8 +184,8 @@
 		AF01EBCAF0B7B8E0BDDA38BF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EDB388F806B1E63F28222737 /* Pods-JackpotTown.debug.xcconfig */,
-				673472F8BF96CC3EBD410A82 /* Pods-JackpotTown.release.xcconfig */,
+				52E34EDC6B612BADF4CD814E /* Pods-JackpotTown.debug.xcconfig */,
+				22129B290672C711DFFD94FC /* Pods-JackpotTown.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EA0341C26CA6B1700665056 /* Build configuration list for PBXNativeTarget "JackpotTown" */;
 			buildPhases = (
-				71C99226A0E36C5ED15DED16 /* [CP] Check Pods Manifest.lock */,
+				9C10B485EA41552B304C0502 /* [CP] Check Pods Manifest.lock */,
 				7EA0340426CA6B1500665056 /* Sources */,
 				7EA0340526CA6B1500665056 /* Frameworks */,
 				7EA0340626CA6B1500665056 /* Resources */,
@@ -261,7 +261,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		71C99226A0E36C5ED15DED16 /* [CP] Check Pods Manifest.lock */ = {
+		9C10B485EA41552B304C0502 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +457,7 @@
 		};
 		7EA0341D26CA6B1700665056 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDB388F806B1E63F28222737 /* Pods-JackpotTown.debug.xcconfig */;
+			baseConfigurationReference = 52E34EDC6B612BADF4CD814E /* Pods-JackpotTown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,7 +483,7 @@
 		};
 		7EA0341E26CA6B1700665056 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 673472F8BF96CC3EBD410A82 /* Pods-JackpotTown.release.xcconfig */;
+			baseConfigurationReference = 22129B290672C711DFFD94FC /* Pods-JackpotTown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
