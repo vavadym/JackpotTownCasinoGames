@@ -9,9 +9,9 @@ import Foundation
 
 struct Consts {
     
-    static let appID = "1592669488"
+    static let appID = "1593358311"
     
-    static let appsFlyerDevKey = "r6zv3tRrCzUqPZSKSP3JA9"
+    static let appsFlyerDevKey = "YCRWYnbnHgj2a9dqMxyUMT"
     
 //    static let leaderboardID = "com.linnavict.star"
     

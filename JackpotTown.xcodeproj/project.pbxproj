@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		058E94C1F3376B5E0A4F001C /* libPods-JackpotTown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 752E1A463379F3382422990E /* libPods-JackpotTown.a */; };
+		70070F510C693C2731B8FBCE /* libPods-JackpotTown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2301EBB7D5B2ED1267B38CB1 /* libPods-JackpotTown.a */; };
 		7E1BD8D827218221008BAFA0 /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BD8D727218221008BAFA0 /* FortuneViewController.swift */; };
 		7E1BD8DA2721D52B008BAFA0 /* FortunePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1BD8D92721D52B008BAFA0 /* FortunePopUpViewController.swift */; };
 		7E44818426DEC92600134F93 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E44818326DEC92600134F93 /* StoreKit.framework */; };
@@ -37,13 +37,13 @@
 		7EA0346C26CE699500665056 /* PlainVerticalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0346B26CE699500665056 /* PlainVerticalProgressBar.swift */; };
 		7EA0347226CE789B00665056 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0347126CE789B00665056 /* Level.swift */; };
 		7EA095DC26CFE1380053B791 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA095DB26CFE1380053B791 /* StoreViewController.swift */; };
-		7EB5559427319042001EAF50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB5559327319042001EAF50 /* GoogleService-Info.plist */; };
+		7EB5559827329376001EAF50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EB5559727329376001EAF50 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22129B290672C711DFFD94FC /* Pods-JackpotTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.release.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.release.xcconfig"; sourceTree = "<group>"; };
-		52E34EDC6B612BADF4CD814E /* Pods-JackpotTown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.debug.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.debug.xcconfig"; sourceTree = "<group>"; };
-		752E1A463379F3382422990E /* libPods-JackpotTown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JackpotTown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2301EBB7D5B2ED1267B38CB1 /* libPods-JackpotTown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JackpotTown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E522687A2070C47A5889B6E /* Pods-JackpotTown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.release.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.release.xcconfig"; sourceTree = "<group>"; };
+		68B4412A6DA915845F21BBC5 /* Pods-JackpotTown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JackpotTown.debug.xcconfig"; path = "Target Support Files/Pods-JackpotTown/Pods-JackpotTown.debug.xcconfig"; sourceTree = "<group>"; };
 		7E1BD8D727218221008BAFA0 /* FortuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
 		7E1BD8D92721D52B008BAFA0 /* FortunePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunePopUpViewController.swift; sourceTree = "<group>"; };
 		7E44818326DEC92600134F93 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -76,7 +76,7 @@
 		7EA0346B26CE699500665056 /* PlainVerticalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainVerticalProgressBar.swift; sourceTree = "<group>"; };
 		7EA0347126CE789B00665056 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		7EA095DB26CFE1380053B791 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
-		7EB5559327319042001EAF50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7EB5559727329376001EAF50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E44818426DEC92600134F93 /* StoreKit.framework in Frameworks */,
-				058E94C1F3376B5E0A4F001C /* libPods-JackpotTown.a in Frameworks */,
+				70070F510C693C2731B8FBCE /* libPods-JackpotTown.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				7E44818326DEC92600134F93 /* StoreKit.framework */,
-				752E1A463379F3382422990E /* libPods-JackpotTown.a */,
+				2301EBB7D5B2ED1267B38CB1 /* libPods-JackpotTown.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 				7EA0341126CA6B1500665056 /* Main.storyboard */,
 				7EA0341626CA6B1700665056 /* LaunchScreen.storyboard */,
 				7EA0341926CA6B1700665056 /* Info.plist */,
-				7EB5559327319042001EAF50 /* GoogleService-Info.plist */,
+				7EB5559727329376001EAF50 /* GoogleService-Info.plist */,
 				7EA0341426CA6B1700665056 /* Assets.xcassets */,
 				7E985DA126DFAACF00FB19F6 /* BaseVC.swift */,
 			);
@@ -184,8 +184,8 @@
 		AF01EBCAF0B7B8E0BDDA38BF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				52E34EDC6B612BADF4CD814E /* Pods-JackpotTown.debug.xcconfig */,
-				22129B290672C711DFFD94FC /* Pods-JackpotTown.release.xcconfig */,
+				68B4412A6DA915845F21BBC5 /* Pods-JackpotTown.debug.xcconfig */,
+				3E522687A2070C47A5889B6E /* Pods-JackpotTown.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EA0341C26CA6B1700665056 /* Build configuration list for PBXNativeTarget "JackpotTown" */;
 			buildPhases = (
-				9C10B485EA41552B304C0502 /* [CP] Check Pods Manifest.lock */,
+				484B2640FDB68C461D36F4C0 /* [CP] Check Pods Manifest.lock */,
 				7EA0340426CA6B1500665056 /* Sources */,
 				7EA0340526CA6B1500665056 /* Frameworks */,
 				7EA0340626CA6B1500665056 /* Resources */,
@@ -254,14 +254,14 @@
 				7E985DAC26E0135900FB19F6 /* crow-cawing-sound-effect.mp3 in Resources */,
 				7EA0341526CA6B1700665056 /* Assets.xcassets in Resources */,
 				7EA0341326CA6B1500665056 /* Main.storyboard in Resources */,
-				7EB5559427319042001EAF50 /* GoogleService-Info.plist in Resources */,
+				7EB5559827329376001EAF50 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9C10B485EA41552B304C0502 /* [CP] Check Pods Manifest.lock */ = {
+		484B2640FDB68C461D36F4C0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,15 +457,15 @@
 		};
 		7EA0341D26CA6B1700665056 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52E34EDC6B612BADF4CD814E /* Pods-JackpotTown.debug.xcconfig */;
+			baseConfigurationReference = 68B4412A6DA915845F21BBC5 /* Pods-JackpotTown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = JackpotTown/JackpotTown.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: RED COW MEDIA LTD (YMTRZFM944)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KCK682988K;
+				DEVELOPMENT_TEAM = YMTRZFM944;
 				INFOPLIST_FILE = JackpotTown/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +475,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.newversion.jackpottowncasino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = JackpotTownProvProfile1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -483,15 +483,15 @@
 		};
 		7EA0341E26CA6B1700665056 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22129B290672C711DFFD94FC /* Pods-JackpotTown.release.xcconfig */;
+			baseConfigurationReference = 3E522687A2070C47A5889B6E /* Pods-JackpotTown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = JackpotTown/JackpotTown.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: RED COW MEDIA LTD (YMTRZFM944)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KCK682988K;
+				DEVELOPMENT_TEAM = YMTRZFM944;
 				INFOPLIST_FILE = JackpotTown/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,7 +501,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.newversion.jackpottowncasino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = JackpotTownProvProfile1;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

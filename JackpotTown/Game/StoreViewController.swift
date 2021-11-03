@@ -10,9 +10,9 @@ import UIKit
 class StoreViewController: BaseVC {
     
     enum Product: String, CaseIterable {
-        case buy100Coins = "com.classic.casino.buy100coins"
-        case buy500Coins = "com.classic.casino.buy500coins"
-        case buy1000Coins = "com.classic.casino.buy1000coins"
+        case buy100Coins = "com.newversion.jackpottowncasino.buy100coins"
+        case buy500Coins = "com.newversion.jackpottowncasino.buy500coins"
+        case buy1000Coins = "com.newversion.jackpottowncasino.buy1000coins"
     }
     
     override func viewDidLoad() {

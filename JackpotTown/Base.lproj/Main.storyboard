@@ -406,7 +406,7 @@
                                                         </prototypes>
                                                     </tableView>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bN1-vx-jir">
-                                                        <rect key="frame" x="279" y="0.0" width="93" height="150"/>
+                                                        <rect key="frame" x="279" y="0.0" width="89" height="150"/>
                                                         <color key="backgroundColor" red="0.312" green="0.7565861344" blue="0.50192362069999996" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="93" id="H4p-R9-Gi1"/>
@@ -414,17 +414,17 @@
                                                         <color key="sectionIndexBackgroundColor" red="0.312" green="0.7565861344" blue="0.50192362069999996" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <prototypes>
                                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="tableViewFourth" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jQI-Zd-OUM">
-                                                                <rect key="frame" x="0.0" y="44.666666030883789" width="93" height="43.666667938232422"/>
+                                                                <rect key="frame" x="0.0" y="44.666666030883789" width="89" height="43.666667938232422"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jQI-Zd-OUM" id="nx7-ir-6zK">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="93" height="43.666667938232422"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="89" height="43.666667938232422"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </tableViewCellContentView>
                                                             </tableViewCell>
                                                         </prototypes>
                                                     </tableView>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WnB-Di-lwP">
-                                                        <rect key="frame" x="372" y="0.0" width="89" height="150"/>
+                                                        <rect key="frame" x="368" y="0.0" width="93" height="150"/>
                                                         <color key="backgroundColor" red="0.312" green="0.7565861344" blue="0.50192362069999996" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="93" id="Dah-pD-a3i"/>
@@ -432,10 +432,10 @@
                                                         <color key="sectionIndexBackgroundColor" red="0.312" green="0.7565861344" blue="0.50192362069999996" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <prototypes>
                                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="tableViewFifth" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="MAJ-D8-hOm">
-                                                                <rect key="frame" x="0.0" y="44.666666030883789" width="89" height="43.666667938232422"/>
+                                                                <rect key="frame" x="0.0" y="44.666666030883789" width="93" height="43.666667938232422"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MAJ-D8-hOm" id="ziy-gf-KK3">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="89" height="43.666667938232422"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="93" height="43.666667938232422"/>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                 </tableViewCellContentView>
                                                             </tableViewCell>
@@ -731,13 +731,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="STORE-1" translatesAutoresizingMaskIntoConstraints="NO" id="cpE-3I-yMP">
-                                <rect key="frame" x="352" y="2" width="191" height="59"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="STORE-1" translatesAutoresizingMaskIntoConstraints="NO" id="cpE-3I-yMP">
+                                <rect key="frame" x="352.66666666666669" y="2" width="191.00000000000006" height="59"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="CPe-CO-p3q"/>
-                                    <constraint firstAttribute="height" constant="36" id="PCZ-dK-k0d"/>
-                                    <constraint firstAttribute="width" constant="189" id="SoK-9J-LqK"/>
+                                    <constraint firstAttribute="height" constant="59" id="PCZ-dK-k0d"/>
+                                    <constraint firstAttribute="width" constant="191" id="SoK-9J-LqK"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="189" id="cha-XM-rZr"/>
                                 </constraints>
                             </imageView>
