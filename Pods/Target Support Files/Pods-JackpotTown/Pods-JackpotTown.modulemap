@@ -1,0 +1,6 @@
+module Pods_JackpotTown {
+  umbrella header "Pods-JackpotTown-umbrella.h"
+
+  export *
+  module * { export * }
+}
